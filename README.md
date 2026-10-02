@@ -16,8 +16,8 @@ unreliable on DOS machines with unusually large amounts of RAM:
 
 * 80386 or later processor.
 * DOS 3.x or later 
-* FAKEIT.SYS must load BEFORE HIMEM.SYS, HIMEMX, 386MAX, EMM386 or another
-  extended-memory manager.
+* `FAKEIT.SYS` must load BEFORE `HIMEM.SYS`, `HIMEMX`, `QEMM386`, `386MAX`, `EMM386`, `JEMM386` or any another
+  extended-memory manager you're banging
 
 ## Syntax
 
