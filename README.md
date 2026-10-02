@@ -1,6 +1,6 @@
 # FAKEIT.SYS
 
-> Fakes the amount of physical RAM seen by DOS (and Windows)
+> Fakes the amount of physical RAM seen by DOS, Extended Memory Managers and Windows 2.0-Windows 3.11.
 
 ## Purpose
 
