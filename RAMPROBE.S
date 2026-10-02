@@ -3,7 +3,7 @@
 .section .text
 .global _start
 
-/* RAMPROBE.COM v0.20
+/* RAMPROBE.COM v0.11
  * 386+ DOS diagnostic utility for BIOS and XMS memory reporting.
  */
 _start:
@@ -151,22 +151,6 @@ aftere820:
     /* Find an installed XMS manager. */
     mov dx, offset xmshead
     call puts
-
-    /* Report whether RAMSIZE.COM stage-2 XMS filter is resident. */
-    mov ax, 0xD5A0
-    mov bx, 0x5253
-    mov cx, 0x5A45
-    int 0x2F
-    cmp ax, 0xD5A1
-    jne 1f
-    mov dx, offset filt_yes
-    call puts
-    jmp 2f
-1:
-    mov dx, offset filt_no
-    call puts
-2:
-
     mov ax, 0x4300
     int 0x2F
     cmp al, 0x80
@@ -367,7 +351,7 @@ hex_nibble:
     int 0x21
     ret
 
-banner:      .ascii "RAMPROBE 0.21 - BIOS/XMS visible memory\r\n$"
+banner:      .ascii "RAMPROBE 0.11 - BIOS/XMS visible memory\r\n$"
 lab88:       .ascii "INT 15/88   : $"
 lab8a:       .ascii "INT 15/8A   : $"
 labda:       .ascii "INT 15/DA88 : $"
@@ -378,8 +362,6 @@ kbcrlf:      .ascii " KB total\r\n$"
 blankline:   .ascii "\r\n$"
 crlf:        .ascii "\r\n$"
 xmshead:     .ascii "XMS manager diagnostics\r\n$"
-filt_yes:    .ascii "RAMSIZE XMS : filter installed\r\n$"
-filt_no:     .ascii "RAMSIZE XMS : filter not installed\r\n$"
 xmsverlab:   .ascii "XMS version : $"
 xms2lab:     .ascii "XMS fn 08   : total free $"
 xms3lab:     .ascii "XMS fn 88   : total free $"
