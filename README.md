@@ -24,7 +24,7 @@ unreliable/not work at all on machines with unusually large amounts of RAM:
 In `CONFIG.SYS`:
 
 ```
-  DEVICE=C:\UTILS\FAKEIT.SYS /MAX=16384
+  DEVICE=C:\FAKEIT.SYS /MAX=16384
 ```
 
 `/MAX` is TOTAL visible RAM in kilobytes, not only memory above 1 MB.
