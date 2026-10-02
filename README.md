@@ -27,6 +27,7 @@ It provides the same utility as the [HIMEMX](https://github.com/Baron-von-Riedes
 
 Just [download FAKEIT.SYS](https://github.com/therenegar/fakeit.sys/blob/main/FAKEIT.SYS) directly and place anywhere you like.
 
+You can also download [RAMPROBE.COM](https://github.com/therenegar/fakeit.sys/blob/main/RAMPROBE.COM), another tiny utility that provides some useful diagnostics on how memory is being reported. You can use this to confirm that your RAM is being limited successfully.
 
 ## Syntax
 
