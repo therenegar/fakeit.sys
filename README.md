@@ -12,6 +12,8 @@ unreliable/not work at all on machines with unusually large amounts of RAM:
 - Windows 3.0 > 16MB
 - Windows 3.1 > 256MB
 
+It performs the function of the 'HIMEMX /MAX' but without requiring you to use HIMEMX.
+
 ## Requirements
 
 * 80386 or later processor.
