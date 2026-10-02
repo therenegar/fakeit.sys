@@ -18,7 +18,7 @@ It provides the same utility as the [HIMEMX](https://github.com/Baron-von-Riedes
 ## Requirements
 
 * 80386 or later processor.
-* DOS 3.x or later https://github.com/therenegar/fakeit.sys/blob/main/FAKEIT.SYS
+* DOS 3.x or later 
 * `FAKEIT.SYS` must load BEFORE `HIMEM.SYS`, `HIMEMX`, `QEMM386`, `386MAX`, `EMM386`, `JEMM386` or any another
   extended-memory manager you're banging
 
