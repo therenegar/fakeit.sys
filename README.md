@@ -6,15 +6,14 @@
 
 ## Purpose
 
-`FAKEIT.SYS` lets an old DOS/Windows environment appear as though the machine has
-**less** physical RAM than is actually installed.
+`FAKEIT.SYS` lets a DOS environment think the machine has **less** physical RAM than is actually installed.
 
-It is intended for old memory managers and Windows 2/3.x environments which can be
-unreliable or not work at all on machines with unusually large amounts of RAM:
+It is intended for old memory managers and Windows 2/3.x environments which can be unreliable or not work at all on machines with unusually large amounts of RAM:
+
 - Windows 2.x/3.0 > 16MB
 - Windows 3.1 > 256MB
 
-It provides the same utility as the 'HIMEMX /MAX' parameter but without requiring you to use HIMEMX.
+It provides the same utility as the [HIMEMX](https://github.com/Baron-von-Riedesel/HimemX) '/MAX' parameter but without requiring you to use HIMEMX.
 
 ## Requirements
 
