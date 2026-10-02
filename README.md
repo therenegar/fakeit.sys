@@ -8,7 +8,7 @@
 **less** physical RAM than is actually installed.
 
 It is intended for old memory managers and Windows 3.x systems which can be
-unreliable on DOS machines with unusually large amounts of RAM:
+unreliable/not work at all on machines with unusually large amounts of RAM:
 - Windows 3.0 > 16MB
 - Windows 3.1 > 256MB
 
