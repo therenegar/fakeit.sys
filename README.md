@@ -1,6 +1,4 @@
-<img width="64" height="64" alt="for DOS" src="https://github.com/user-attachments/assets/f53ec307-17a9-42f4-851f-9958938572bb" />
-
-# FAKEIT.SYS
+# <img width="64" height="64" alt="for DOS" src="https://github.com/user-attachments/assets/f53ec307-17a9-42f4-851f-9958938572bb" /><BR/>FAKEIT.SYS
 
 > Fakes the amount of physical RAM seen by DOS, Extended Memory Managers and Windows 2.0-Windows 3.11.
 
